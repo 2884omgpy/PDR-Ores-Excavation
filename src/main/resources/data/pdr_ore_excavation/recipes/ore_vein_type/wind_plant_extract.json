@@ -1,0 +1,19 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMax": 2.0,
+  "amountMin": 1.0,
+  "biomeWhitelist": "pasterdream:wind_journey_world_biome",
+  "icon":
+  {
+    "item": "pasterdream:glass_jar_of_wind_plant_extract"
+  },
+  "name": "{\"translate\":\"fluid.pasterdream.wind_plant_extract\"}",
+  "neverFinite": true,
+  "placement":
+  {
+    "salt": 2147483647,
+    "separation": 4,
+    "spacing": 16
+  },
+  "priority": 0
+}

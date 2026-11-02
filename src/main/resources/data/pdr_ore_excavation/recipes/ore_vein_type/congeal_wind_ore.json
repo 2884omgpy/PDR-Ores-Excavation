@@ -1,0 +1,19 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMax": 64.0,
+  "amountMin": 1.0,
+  "biomeWhitelist": "pasterdream:wind_journey_world_biome",
+  "icon":
+  {
+    "item": "pasterdream:congeal_wind"
+  },
+  "name": "{\"translate\":\"item.pasterdream.congeal_wind\"}",
+  "neverFinite": true,
+  "placement":
+  {
+    "salt": 1,
+    "separation": 4,
+    "spacing": 16
+  },
+  "priority": 0
+}

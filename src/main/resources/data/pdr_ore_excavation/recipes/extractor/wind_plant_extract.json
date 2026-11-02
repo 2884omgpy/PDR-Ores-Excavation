@@ -1,0 +1,17 @@
+{
+  "type": "createoreexcavation:extracting",
+  "drill":
+  {
+    "tag": "pdr_ore_excavation:wind_journey_world_drills"
+  },
+
+  "output":
+  {
+    "amount": 100,
+    "fluid": "pasterdream:wind_plant_extract"
+  },
+  "priority": 0,
+  "stress": 256,
+  "ticks": 20,
+  "vein_id": "pdr_ore_excavation:ore_vein_type/wind_plant_extract"
+}

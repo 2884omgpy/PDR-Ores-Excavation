@@ -1,0 +1,19 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMax": 16.0,
+  "amountMin": 16.0,
+  "biomeWhitelist": "pasterdream:lamp_shadow_world_biome",
+  "icon":
+  {
+    "item": "pasterdream:shadow_liquid_bucket"
+  },
+  "name": "{\"translate\":\"fluid.pasterdream.shadow_liquid\"}",
+  "neverFinite": false,
+  "placement":
+  {
+    "salt": 2147483647,
+    "separation": 2,
+    "spacing": 4
+  },
+  "priority": 0
+}

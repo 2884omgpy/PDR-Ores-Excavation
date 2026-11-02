@@ -1,0 +1,22 @@
+{
+  "type": "createoreexcavation:drilling",
+  "drill":
+  {
+    "tag": "createoreexcavation:is_netherite_level"
+  },
+  "fluid":
+  {
+    "amount": 500,
+    "fluid": "minecraft:lava"
+  },
+  "output":
+  [
+    {
+      "item": "pasterdream:raw_titanium"
+    }
+  ],
+  "priority": 0,
+  "stress": 1024,
+  "ticks": 400,
+  "vein_id": "pdr_ore_excavation:ore_vein_type/deepslate_titanium_ore"
+}

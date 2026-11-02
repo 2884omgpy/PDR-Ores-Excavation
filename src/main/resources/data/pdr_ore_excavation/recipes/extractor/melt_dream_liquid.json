@@ -1,0 +1,22 @@
+{
+  "type": "createoreexcavation:extracting",
+  "drill":
+  {
+    "item": "pdr_ore_excavation:dyedream_alloy_drill"
+  },
+  "fluid":
+  {
+    "amount": 1000,
+    "fluid": "minecraft:water"
+  },
+
+  "output":
+  {
+    "amount": 1,
+    "fluid": "pasterdream:melt_dream_liquid"
+  },
+  "priority": 0,
+  "stress": 16384,
+  "ticks": 20,
+  "vein_id": "pdr_ore_excavation:ore_vein_type/melt_dream_liquid"
+}

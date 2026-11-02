@@ -1,0 +1,17 @@
+{
+  "type": "createoreexcavation:drilling",
+  "drill":
+  {
+    "tag": "pdr_ore_excavation:wind_journey_world_drills"
+  },
+  "output":
+  [
+    {
+      "item": "pasterdream:wind_runner_crystal"
+    }
+  ],
+  "priority": 0,
+  "stress": 256,
+  "ticks": 100,
+  "vein_id": "pdr_ore_excavation:ore_vein_type/wind_runner_crystal_ore"
+}

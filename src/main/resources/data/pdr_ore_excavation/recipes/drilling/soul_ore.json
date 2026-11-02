@@ -1,0 +1,17 @@
+{
+  "type": "createoreexcavation:drilling",
+  "drill":
+  {
+    "tag": "createoreexcavation:drills"
+  },
+  "output":
+  [
+    {
+      "item": "pasterdream:soul_dust"
+    }
+  ],
+  "priority": 0,
+  "stress": 32,
+  "ticks": 20,
+  "vein_id": "pdr_ore_excavation:ore_vein_type/soul_ore"
+}

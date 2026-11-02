@@ -1,0 +1,22 @@
+{
+  "type": "createoreexcavation:drilling",
+  "drill":
+  {
+    "tag": "createoreexcavation:drills"
+  },
+  "fluid":
+  {
+    "amount": 500,
+    "fluid": "minecraft:lava"
+  },
+  "output":
+  [
+    {
+      "item": "pasterdream:raw_molten_gold"
+    }
+  ],
+  "priority": 0,
+  "stress": 256,
+  "ticks": 200,
+  "vein_id": "pdr_ore_excavation:ore_vein_type/molten_gold_ore"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMax": 2.0,
+  "amountMin": 1.0,
+  "biomeWhitelist": "pasterdream:dyedream_world_biome",
+  "icon":
+  {
+    "item": "pasterdream:melt_dream_liquid_bucket"
+  },
+  "name": "{\"translate\":\"fluid.pasterdream.melt_dream_liquid\"}",
+  "neverFinite": true,
+  "placement":
+  {
+    "salt": 2147483647,
+    "separation": 8,
+    "spacing": 64
+  },
+  "priority": 0
+}

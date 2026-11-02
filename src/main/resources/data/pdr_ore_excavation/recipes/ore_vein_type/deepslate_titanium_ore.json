@@ -1,0 +1,19 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMax": 64.0,
+  "amountMin": 1.0,
+  "biomeWhitelist": "minecraft:is_overworld",
+  "icon":
+  {
+    "item": "pasterdream:raw_titanium"
+  },
+  "name": "{\"translate\":\"item.pasterdream.raw_titanium\"}",
+  "neverFinite": true,
+  "placement":
+  {
+    "salt": 2147483647,
+    "separation": 64,
+    "spacing": 256
+  },
+  "priority": 0
+}

@@ -133,7 +133,7 @@ dependencies {
     //机械动力：矿石开掘
     implementation fg.deobf("curse.maven:create-ore-excavation-649832:8992552")
 
-    //CC:Tweaked 机械动力：矿石开掘datagen附属
+    //CC:Tweaked 机械动力：矿石开掘datagen附属,datagen的时候取消注释，runClient，build jar的时候注释
     //implementation fg.deobf("curse.maven:cc-tweaked-282001:5714507")
 
     //PDR

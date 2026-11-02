@@ -1,0 +1,19 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMax": 64.0,
+  "amountMin": 1.0,
+  "biomeWhitelist": "pasterdream:dyedream_world_biome",
+  "icon":
+  {
+    "item": "pasterdream:amber_candy"
+  },
+  "name": "{\"translate\":\"item.pasterdream.amber_candy\"}",
+  "neverFinite": true,
+  "placement":
+  {
+    "salt": 3,
+    "separation": 4,
+    "spacing": 16
+  },
+  "priority": 0
+}

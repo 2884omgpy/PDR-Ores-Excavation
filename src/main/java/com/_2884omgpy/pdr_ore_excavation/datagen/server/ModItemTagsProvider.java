@@ -2,6 +2,7 @@ package com._2884omgpy.pdr_ore_excavation.datagen.server;
 
 import com._2884omgpy.pdr_ore_excavation.PDROreExcavation;
 import com._2884omgpy.pdr_ore_excavation.init.ModItems;
+import com.tom.createores.Registration;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.PackOutput;
@@ -30,6 +31,24 @@ public class ModItemTagsProvider extends ItemTagsProvider
                 .add(ModItems.BLACK_METAL_DRILL.get())
                 .add(ModItems.SHADOW_ALLOY_DRILL.get())
                 .add(ModItems.CONGEAL_WIND_IRON_DRILL.get())
+                .add(ModItems.FLUFFY_WIND_ALLOY_DRILL.get());
+
+        tag(TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("pdr_ore_excavation", "dyedream_world_drills")))
+                .add(ModItems.TITANIUM_DRILL.get())
+                .add(ModItems.DYEDREAM_ALLOY_DRILL.get());
+
+        tag(TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("pdr_ore_excavation", "lamp_shadow_world_drills")))
+                .add(ModItems.BLACK_METAL_DRILL.get())
+                .add(ModItems.SHADOW_ALLOY_DRILL.get());
+
+        tag(TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("pdr_ore_excavation", "wind_journey_world_drills")))
+                .add(ModItems.CONGEAL_WIND_IRON_DRILL.get())
+                .add(ModItems.FLUFFY_WIND_ALLOY_DRILL.get());
+
+        tag(TagKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath("createoreexcavation", "is_netherite_level")))
+                .add(Registration.NETHERITE_DRILL_ITEM.asItem())
+                .add(ModItems.DYEDREAM_ALLOY_DRILL.get())
+                .add(ModItems.SHADOW_ALLOY_DRILL.get())
                 .add(ModItems.FLUFFY_WIND_ALLOY_DRILL.get());
     }
 }

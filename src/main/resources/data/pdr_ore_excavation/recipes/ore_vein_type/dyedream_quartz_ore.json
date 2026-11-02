@@ -1,0 +1,19 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMax": 64.0,
+  "amountMin": 1.0,
+  "biomeWhitelist": "pasterdream:dyedream_world_biome",
+  "icon":
+  {
+    "item": "pasterdream:dyedream_quartz"
+  },
+  "name": "{\"translate\":\"item.pasterdream.dyedream_quartz\"}",
+  "neverFinite": true,
+  "placement":
+  {
+    "salt": 1,
+    "separation": 8,
+    "spacing": 64
+  },
+  "priority": 0
+}
